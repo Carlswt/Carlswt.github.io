@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="git," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -84,16 +84,37 @@
 
 
 
-<meta name="description" content="git简明教程">
+<meta name="description" content="都说vim编辑器是编辑器之神，我就来学学它，哈哈哈
+第一步当然是安装编辑器了，windows下我安装了gvim来学习
+
+了解vim编辑两种模式 Insert 和 Normal 模式，和基本命令
+
+启动vim后默认在Normal 模式下，键盘输入i切换到Insert模式
+x → 删当前光标所在的一个字符。
+:wq → 存盘 + 退出 (:w 存盘, :q 退出)   （陈皓注：:w 后可以跟文件名）">
 <meta property="og:type" content="article">
-<meta property="og:title" content="git简明教程">
-<meta property="og:url" content="http://Carlswt.github.io/2016/06/04/git简明教程/index.html">
+<meta property="og:title" content="学习vim编辑器">
+<meta property="og:url" content="http://Carlswt.github.io/2016/12/13/学习vim编辑器/index.html">
 <meta property="og:site_name" content="carlswt'blog">
-<meta property="og:description" content="git简明教程">
-<meta property="og:updated_time" content="2016-12-12T05:11:56.941Z">
+<meta property="og:description" content="都说vim编辑器是编辑器之神，我就来学学它，哈哈哈
+第一步当然是安装编辑器了，windows下我安装了gvim来学习
+
+了解vim编辑两种模式 Insert 和 Normal 模式，和基本命令
+
+启动vim后默认在Normal 模式下，键盘输入i切换到Insert模式
+x → 删当前光标所在的一个字符。
+:wq → 存盘 + 退出 (:w 存盘, :q 退出)   （陈皓注：:w 后可以跟文件名）">
+<meta property="og:updated_time" content="2016-12-13T15:10:44.312Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="git简明教程">
-<meta name="twitter:description" content="git简明教程">
+<meta name="twitter:title" content="学习vim编辑器">
+<meta name="twitter:description" content="都说vim编辑器是编辑器之神，我就来学学它，哈哈哈
+第一步当然是安装编辑器了，windows下我安装了gvim来学习
+
+了解vim编辑两种模式 Insert 和 Normal 模式，和基本命令
+
+启动vim后默认在Normal 模式下，键盘输入i切换到Insert模式
+x → 删当前光标所在的一个字符。
+:wq → 存盘 + 退出 (:w 存盘, :q 退出)   （陈皓注：:w 后可以跟文件名）">
 
 
 
@@ -121,13 +142,13 @@
 
 
 
-  <link rel="canonical" href="http://Carlswt.github.io/2016/06/04/git简明教程/"/>
+  <link rel="canonical" href="http://Carlswt.github.io/2016/12/13/学习vim编辑器/"/>
 
 
 
 
 
-  <title> git简明教程 | carlswt'blog </title>
+  <title> 学习vim编辑器 | carlswt'blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
@@ -248,7 +269,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://Carlswt.github.io/2016/06/04/git简明教程/">
+  <link itemprop="mainEntityOfPage" href="http://Carlswt.github.io/2016/12/13/学习vim编辑器/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="carlswt">
@@ -272,7 +293,7 @@
             
             
               
-                git简明教程
+                学习vim编辑器
               
             
           </h1>
@@ -285,8 +306,8 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">Veröffentlicht am</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-06-04T21:01:22+08:00">
-                2016-06-04
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-13T21:19:07+08:00">
+                2016-12-13
               </time>
             
 
@@ -321,7 +342,42 @@
       
 
       
-        <p><a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="external">git简明教程</a></p>
+        <h1 id="都说vim编辑器是编辑器之神，我就来学学它，哈哈哈"><a href="#都说vim编辑器是编辑器之神，我就来学学它，哈哈哈" class="headerlink" title="都说vim编辑器是编辑器之神，我就来学学它，哈哈哈"></a>都说vim编辑器是编辑器之神，我就来学学它，哈哈哈</h1><ol>
+<li><p>第一步当然是安装编辑器了，windows下我安装了gvim来学习</p>
+</li>
+<li><p>了解vim编辑两种模式 Insert 和 Normal 模式，和基本命令</p>
+<ul>
+<li>启动vim后默认在Normal 模式下，键盘输入i切换到Insert模式</li>
+<li>x → 删当前光标所在的一个字符。</li>
+<li>:wq → 存盘 + 退出 (:w 存盘, :q 退出)   （陈皓注：:w 后可以跟文件名）</li>
+<li>dd → 删除当前行，并把删除的行存到剪贴板里</li>
+<li>p → 粘贴剪贴板</li>
+<li>Normal模式下hjkl分别对应左，下，上，右，也可用方向键移动光标(很别扭感觉，不过习惯了应该就好了)</li>
+<li>:help <command> → 显示相关命令的帮助。你也可以就输入 :help 而不跟命令，:q命令退出</li>
+<li>Normal模式下所有键都相当于功能键了</li>
+</ul>
+</li>
+<li><p>各种插入模式</p>
+<blockquote>
+<p>a → 在光标后插入<br>o → 在当前行后插入一个新行<br>O → 在当前行前插入一个新行<br>cw → 替换从光标所在位置后到一个单词结尾的字符</p>
+</blockquote>
+</li>
+<li><p>简单的移动光标</p>
+<blockquote>
+<p>0 → 数字零，到行头<br>^ → 到本行第一个不是blank字符的位置（所谓blank字符就是空格，tab，换行，回车等）<br>$ → 到本行行尾<br>g_ → 到本行最后一个不是blank字符的位置<br>/pattern → 搜索 pattern 的字符串,如果搜索出多个匹配，可按n键到下一个.</p>
+</blockquote>
+</li>
+<li><p>拷贝，粘贴</p>
+<blockquote>
+<p>P→当前位置之后，p→当前位置之后<br>yy拷贝</p>
+</blockquote>
+</li>
+<li><p>打开/保存/退出/改变文件</p>
+<blockquote>
+<p>:e <path to="" file=""></path> → 打开一个文件<br>:w → 存盘<br>:save as <path to="" file=""></path> → 另存为 <path to="" file=""></path><br>:x， ZZ 或 :wq → 保存并退出 (:x 表示仅在需要时保存，ZZ不需要输入冒号并回车)<br>:q! → 退出不保存 :qa! 强行退出所有的正在编辑的文件，就算别的文件有更改。<br>:bn 和 :bp → 你可以同时打开很多文件，使用这两个命令来切换下一个或上一个文件。</p>
+</blockquote>
+</li>
+</ol>
 
       
     </div>
@@ -343,19 +399,13 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/git/" rel="tag"># git</a>
-          
-        </div>
-      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/06/03/MarkEditor/" rel="next" title="MarkEditor">
-                <i class="fa fa-chevron-left"></i> MarkEditor
+              <a href="/2016/12/12/湛藏骑行第二天/" rel="next" title="湛藏骑行第二天">
+                <i class="fa fa-chevron-left"></i> 湛藏骑行第二天
               </a>
             
           </div>
@@ -363,10 +413,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/06/09/测试1/" rel="prev" title="2016年6月12日大学韩语4 모의고사">
-                2016年6月12日大学韩语4 모의고사 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -413,8 +459,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Übersicht
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -467,6 +522,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#都说vim编辑器是编辑器之神，我就来学学它，哈哈哈"><span class="nav-number">1.</span> <span class="nav-text">都说vim编辑器是编辑器之神，我就来学学它，哈哈哈</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
     </div>
